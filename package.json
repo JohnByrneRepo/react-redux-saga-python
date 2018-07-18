@@ -1,0 +1,37 @@
+{
+  "name": "RideToTest",
+  "description": "React redux-saga and material-ui with a Python Django back-end",
+  "keywords": [
+    "react",
+    "redux",
+    "saga"
+  ],
+  "version": "1.0.0",
+  "author": "John Byrne",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.54",
+    "@material-ui/core": "1.4.0",
+    "@material-ui/icons": "1.1.0",
+    "@material-ui/lab": "^1.0.0-alpha.6",
+    "material-ui": "0.15.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^1.1.1",
+    "react-tap-event-plugin": "^3.0.2",
+    "redux": "^3.6.0",
+    "redux-form": "^7.3.0",
+    "redux-saga": "^0.16.0",
+    "validator": "^9.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  }
+}

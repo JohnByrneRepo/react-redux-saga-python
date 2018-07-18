@@ -1,0 +1,43 @@
+body {
+	background: #ddd;
+}
+
+.App {
+  text-align: center;
+}
+
+.title {
+	padding: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.slider {
+	padding-top: 20px;
+}
+
+.votes {
+	margin-top: 90px;
+	position: relative;
+	right: 200px;
+}
+
+.card-actions {
+	padding-left: 60px !important;
+}
+
+path {
+	transform: scale(0.5);
+}
+
+svg {
+	width: 10px;
+}
+
+img {
+	width: 50px;
+}
+
+.MuiListItemText-inset-64:first-child {
+	padding-left: 20px !important;
+}
