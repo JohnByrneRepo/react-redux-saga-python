@@ -7,7 +7,12 @@ export default class Routes extends Component {
   render() {
     return (
       <div>
-        <HomePage />
+        <BrowserRouter>
+          <Switch>
+            <Route exact path="/" component={HomePage} />
+            <Route exact path="/details/:id" component={DetailsPage} />
+          </Switch>
+        </BrowserRouter>
       </div>
     )
   }
