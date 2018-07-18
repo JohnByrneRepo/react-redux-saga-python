@@ -6,6 +6,7 @@
     "redux",
     "saga"
   ],
+  "homepage": "http://johnbyrnerepo.github.io/react-redux-saga-python",
   "version": "1.0.0",
   "author": "John Byrne",
   "license": "MIT",
@@ -28,6 +29,8 @@
     "validator": "^9.4.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
